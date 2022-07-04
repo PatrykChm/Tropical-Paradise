@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="/css/main.css">
     <title>Tropical Paradise</title>
 </head>
@@ -218,18 +219,107 @@
                             <button class="offers__option-btn btn-special-animation">Wybierz</button>
                         </div>
                     </div>
-
-
                 </div>
-
-
             </div>
         </section>
 
 
+
+
+
+        <section class="reviews section-padding section white-section" id="reviews">
+            <h2 class="section-heading">Opinie</h2>
+            <div class="wrapper">
+
+                <div class="reviews__boxes">
+
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="img/klient1.jpg" alt="Uśmiechnięta blondynka">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+                            <p class="reviews__box-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo a libero iusto. Deleniti
+                                eveniet ullam aliquid quam nulla tempora autem?
+                            </p>
+                            <strong>Kamila Nowak</strong>
+                        </div>
+                    </div>
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="img/klient2.jpg" alt="Uśmiechnięty blondyn">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+                            <p class="reviews__box-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo a libero iusto. Deleniti
+                                eveniet ullam aliquid quam nulla tempora autem?
+                            </p>
+                            <strong>Michał Kaczor</strong>
+                        </div>
+                    </div>
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="img/klient3.jpg" alt="Uśmiechnięta mulatka">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+                            <p class="reviews__box-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo a libero iusto. Deleniti
+                                eveniet ullam aliquid quam nulla tempora autem?
+                            </p>
+                            <strong>Kornelia Black</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact section-padding section white-section" id="contact">
+            <div class="white-block white-block-right"></div>
+            <div class="white-block white-block-left"></div>
+
+
+            <h2 class="section-heading">Kontakt</h2>
+            <div class="wrapper">
+
+                <form class="contact__form">
+
+                    <div class="contact__form-top">
+
+                        <label for="name" class="contact__form-label">Imie i nazwisko:</label>
+                        <input type="text" class="contact__form-input" id="name">
+
+                        <label for="email" class="contact__form-label">Adres e-mail:</label>
+                        <input type="text" class="contact__form-input" id="email">
+
+                    </div>
+
+                    <label for="msg" class="contact__form-label">Wiadomość:</label>
+                    <textarea id="msg" class="contact__form-textarea"></textarea>
+
+
+                    <button type="submit" class="contact__form-btn btn-special-animation"> 
+                        Wyślij</button>
+                </form>
+            </div>
+        </section>
+
     </main>
 
-    <script src="./js/main.js"></script>
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/slick.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
